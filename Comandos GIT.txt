@@ -1,0 +1,44 @@
+# Crear repositorio
+git init
+
+# Configuración
+git config --global user.email "correo@algo.com"
+git config --global user.name "pepito"
+
+# Verificar estado
+git status
+
+# Pasar el archivo del WD > Staging (Advertencia: .gitignore)
+git add index.html
+gid add .      (añadir todo)
+
+# Pasar Staging > Repositorio
+git commit -m "mensaje"
+
+# Revertir cambios
+git checkout -- .
+
+# NOTA: Si el archivo del repositorio es ACTUALIZADO...
+git add
+git commit -m
+
+# Lista de todos los commit
+git log
+
+# Se movió a un commit anterior, para regresar
+git checkout [ID]
+git checkout master/main
+
+# Subir github
+git remote add origin https://...
+git push -u origin master
+
+# Actualizar la URL en caso sea necesario
+git remote set-url origin https://
+
+# Clonar repositorio de GitHub
+git clone https://github.com/EDWARD-LEO/senatichincha.git
+
+
+
+
