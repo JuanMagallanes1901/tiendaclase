@@ -40,5 +40,8 @@ git remote set-url origin https://
 git clone https://github.com/EDWARD-LEO/senatichincha.git
 
 
-
+ESTADOS
+U ES RASTREAR
+A ES Staging
+M ES MODIFICADO
 
