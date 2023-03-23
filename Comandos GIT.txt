@@ -44,4 +44,6 @@ ESTADOS
 U ES RASTREAR
 A ES Staging
 M ES MODIFICADO
+luego de modificar se agrega git add.
+git commit
 
